@@ -27,7 +27,7 @@
         id: $user.id,
       });
 
-      info("Wallet is ready!");
+      info("Your wallet is ready!");
 
       $user.wallet_initialized = true;
 
@@ -108,7 +108,7 @@
 
 <div class="p-5">
   <div class="flex flex-col">
-    <p>Enter your backup phrase in the correct order:</p>
+    <p>Input your backup seed phrase in the correct order:</p>
 
     {#if !bulk}
       <div class="text-right mt-5">
@@ -124,7 +124,7 @@
   {#if bulk}
     <textarea
       bind:value={typed}
-      placeholder="Type or paste your seed here"
+      placeholder="Type or paste your seed phrase here"
       class="my-4 w-full"
       on:blur={setMnemonic} />
   {:else}
@@ -186,12 +186,12 @@
       <a
         class="secondary-color my-2"
         href="/"
-        on:click|preventDefault={toggle}>I want to enter one word at a time</a>
+        on:click|preventDefault={toggle}>Enter seed one word at a time</a>
     {:else}
       <a
         class="secondary-color my-2"
         href="/"
-        on:click|preventDefault={toggle}>I want to type in a text box</a>
+        on:click|preventDefault={toggle}>Type seed in a text box</a>
     {/if}
   </p>
 </div>
