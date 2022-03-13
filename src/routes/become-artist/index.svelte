@@ -170,7 +170,7 @@
       {:else}
         <p>
           The Bold Gallery is currently onboarding a limited number of creators, so we might take
-          some time to review your application and get back to you. Regardless, please feel free
+          some time to review your application & reach back out to you. Regardless, please feel free
           to submit your profile and apply to become a Bold Gallery creator.
         </p>
         <div class="flex mt-4 m-auto flex-col-reverse lg:flex-row">
