@@ -161,17 +161,17 @@
           <div>Back</div>
         </div>
       </a>
-      <h2 class="mb-10">Become an artist</h2>
+      <h2 class="mb-10">Become A Creator</h2>
       {#if submitted}
         <div>
-          Thank you! Your application has been recorded. We'll follow up by
-          email once we've had a chance to review it.
+          Thank you! Your creator application has been submitted. After we've have had a 
+          chance to review it, if you've been approved, we'll follow up by email.
         </div>
       {:else}
         <p>
-          We currently work with a limited number of artists, so we might take
-          some time to review your work and get back to you. But you are welcome
-          to submit your profile and apply to become an artist.
+          The Bold Gallery is currently onboarding a limited number of creators, so we might take
+          some time to review your application and get back to you. Regardless, please feel free
+          to submit your profile and apply to become a Bold Gallery creator.
         </p>
         <div class="flex mt-4 m-auto flex-col-reverse lg:flex-row">
           <form
@@ -207,7 +207,7 @@
                 <Fa icon={faMapMarkerAlt} class="mt-1" />
               </i>
               <input
-                placeholder="Vancouver, Canada"
+                placeholder="Miami, USA"
                 bind:value={form.location} />
             </div>
             <div class="flex flex-col mb-4">
@@ -223,7 +223,7 @@
             <div class="flex justify-end mt-8">
               <button
                 on:click|preventDefault={submit}
-                class="primary-btn">Submit profile</button>
+                class="primary-btn">Submit Application</button>
             </div>
           </form>
           <div class="mb-10 w-full sm:w-1/2">
