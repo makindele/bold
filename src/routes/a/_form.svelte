@@ -88,7 +88,7 @@
     <input
       class="border-0 border-b-2"
       style="border-radius: 0 !important"
-      placeholder="What's your artwork title?"
+      placeholder="Artwork title"
       on:input={({ target: { value } }) => debounce(value)}
       bind:this={input} />
   </div>
@@ -99,12 +99,12 @@
         class="form-checkbox h-6 w-6"
         type="checkbox"
         bind:checked={artwork.is_physical} />
-      <span class="ml-3">This is a physical artwork</span>
+      <span class="ml-3">Physical Artwork</span>
     </label>
   </div>
   {#if !artwork.id}
     <div class="flex flex-col mb-6">
-      <label for="editions">Number of editions</label>
+      <label for="editions">Number of Pieces</label>
       <input
         id="editions"
         placeholder="Editions"
@@ -113,10 +113,10 @@
     </div>
   {/if}
   <div class="flex flex-col mb-6">
-    <label for="description">Description</label>
+    <label for="description">Artwork Description</label>
     <textarea
       id="description"
-      placeholder="How would you describe it?"
+      placeholder="Describe your artwork and input details about the collection"
       bind:value={artwork.description} />
   </div>
   {#if !artwork.id}
@@ -130,8 +130,7 @@
                 <Fa icon={faQuestionCircle} />
               </i>
               <span class="tooltip-text bg-gray-100 shadow ml-4 rounded">The
-                ticker is a short 3-5 character identifier for your asset that
-                you'll see in other wallets and explorers.</span>
+                ticker is a short 3-5 character identifier for your asset.</span>
             </span>
           </div>
         </label>
