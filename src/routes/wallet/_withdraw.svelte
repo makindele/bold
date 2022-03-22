@@ -101,7 +101,7 @@
           bind:value={to}
           rows={4} />
       </div>
-      <button type="submit" class="primary-btn w-full mt-5">Complete withdraw</button>
+      <button type="submit" class="primary-btn w-full mt-5">Complete Withdraw</button>
     {/if}
   </form>
 {/if}
