@@ -111,7 +111,7 @@
           <div class="flex">
             <div class="px-5 md:px-0">
               {$assets.length}
-              assets available in this wallet
+              Assets Available In This Wallet
             </div>
             <div class="my-auto ml-1">
               <Fa icon={faChevronRight} />
