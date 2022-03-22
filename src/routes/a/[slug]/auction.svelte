@@ -536,14 +536,14 @@
                 bind:checked={auction_enabled}
                 disabled={auction_underway}
               />
-              <span class="ml-3 text-xl">Create an auction</span>
+              <span class="ml-3 text-xl">Create an Auction</span>
             </label>
           </div>
           {#if auction_enabled}
             <div class="aution-container">
               <div class="flex auction justify-between flex-wrap">
                 <div class="flex flex-col">
-                  <h4 class="mb-4">Auction start</h4>
+                  <h4 class="mb-4">Auction Start</h4>
                   <div class="flex justify-between">
                     <div class="flex flex-col mb-4 mr-6">
                       <label for="date">Date</label>
@@ -568,7 +568,7 @@
                   </div>
                 </div>
                 <div class="flex flex-col">
-                  <h4 class="mb-4">Auction end</h4>
+                  <h4 class="mb-4">Auction End</h4>
                   <div class="flex justify-between">
                     <div class="flex flex-col mb-4 mr-6">
                       <label for="date">Date</label>
@@ -610,7 +610,7 @@
                           class="tooltip-text bg-gray-100 shadow ml-4 rounded"
                         >
                           Reserve price is the minimum price that you'll accept
-                          for the artwork. Setting one is optional.
+                          for the artwork. Setting a reserve price is optional.
                         </span>
                       </span>
                       <input
