@@ -88,7 +88,7 @@
     <input
       class="border-0 border-b-2"
       style="border-radius: 0 !important"
-      placeholder="Artwork title"
+      placeholder="Artwork Title"
       on:input={({ target: { value } }) => debounce(value)}
       bind:this={input} />
   </div>
@@ -116,7 +116,7 @@
     <label for="description">Artwork Description</label>
     <textarea
       id="description"
-      placeholder="Describe your artwork and input details about the collection"
+      placeholder="Describe your artwork and provide details about the collection"
       bind:value={artwork.description} />
   </div>
   {#if !artwork.id}
@@ -144,7 +144,7 @@
   {/if}
   <div class="flex flex-col mb-6">
     <label for="tags">Tags
-      <span class="text-gray-400">(e.g. Abstract, monochromatic, etc)</span></label>
+      <span class="text-gray-400">(e.g. #FineArt, #PixelArt, #Photography, etc)</span></label>
     <Select
       id="tags"
       {items}
