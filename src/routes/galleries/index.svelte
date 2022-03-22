@@ -43,7 +43,7 @@
         {/each}
         <a
           class="mx-auto secondary-btn mb-20"
-          href={`/galleries/${gallery}`}>View gallery</a>
+          href={`/galleries/${gallery}`}>View Gallery</a>
       </div>
     {/each}
   </div>
