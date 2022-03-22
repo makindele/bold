@@ -70,7 +70,7 @@
 
     <p class="my-4">
       <a class="secondary-color" href="." on:click|preventDefault={() => copy(mnemonic)}>Copy to
-        clipboard</a>
+        Clipboard</a>
     </p>
 
     <div class="flex justify-center text-center mt-5">
