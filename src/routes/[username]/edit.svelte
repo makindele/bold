@@ -107,7 +107,7 @@
           autocomplete="off"
         >
           <div class="flex flex-col mb-4">
-            <label for="name">Name</label>
+            <label for="name">Profile Name</label>
             <input
               id="name"
               placeholder="Full Name"
@@ -115,7 +115,7 @@
             />
           </div>
           <div class="flex flex-col mb-4">
-            <label for="username">Username</label>
+            <label for="username">Profile Username</label>
             <input placeholder="Username" bind:value={form.username} />
           </div>
           <div class="flex flex-col mb-4">
@@ -140,7 +140,7 @@
             <i class="icon">
               <Fa icon={faMapMarkerAlt} class="mt-1" />
             </i>
-            <input placeholder="Vancouver, Canada" bind:value={form.location} />
+            <input placeholder="Miami, USA" bind:value={form.location} />
           </div>
           <div class="flex flex-col mb-4">
             <i class="icon">
@@ -149,11 +149,11 @@
             <input placeholder="example.com" bind:value={form.website} />
           </div>
           <div class="flex flex-col mb-4">
-            <label for="bio">Bio</label>
+            <label for="bio">Profile Bio</label>
             <textarea placeholder="" bind:value={form.bio} />
           </div>
           <div class="flex flex-col mb-4">
-            <label for="prompt_sign">Request transactions signing</label>
+            <label for="prompt_sign">Request Signing of Transactions</label>
             <input
             type="checkbox"
               id="prompt_sign"
@@ -162,7 +162,7 @@
           </div>
           <div class="flex mt-8">
             <button on:click|preventDefault={submit} class="primary-btn "
-              >Save details</button
+              >Save Details</button
             >
           </div>
         </form>
@@ -172,7 +172,7 @@
         >
           <Avatar size="xl" src={preview || $user.avatar_url} />
           <button class="text-lightblue mt-5"
-            >CHANGE AVATAR
+            >UPDATE AVATAR
             <Fa icon={faImage} pull="right" class="mt-1 ml-2" /></button
           >
 
