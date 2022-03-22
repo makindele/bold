@@ -129,8 +129,8 @@
               <i class="text-midblue text-xl">
                 <Fa icon={faQuestionCircle} />
               </i>
-              <span class="tooltip-text bg-gray-100 shadow ml-4 rounded">The
-                ticker is a short 3-5 character identifier for your asset.</span>
+              <span class="tooltip-text bg-gray-100 shadow ml-4 rounded">
+                A short 3-5 character identifier for your asset.</span>
             </span>
           </div>
         </label>
@@ -144,7 +144,7 @@
   {/if}
   <div class="flex flex-col mb-6">
     <label for="tags">Tags
-      <span class="text-gray-400">(e.g. #FineArt, #PixelArt, #Photography, etc)</span></label>
+      <span class="text-gray-400">(e.g. FineArt, PixelArt, Photography, etc)</span></label>
     <Select
       id="tags"
       {items}
