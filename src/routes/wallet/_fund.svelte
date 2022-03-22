@@ -209,7 +209,7 @@
             <div
               class="flex w-1/4 ml-2 text-right whitespace-nowrap text-sm secondary-color cursor-pointer"
               on:click={toggle}>
-              Show invoice
+              Show Invoice
               <div class="my-auto ml-1">
                 <Fa icon={faChevronDown} />
               </div>
@@ -220,7 +220,7 @@
           <div
             class="flex w-1/4 mx-auto mt-2 text-right whitespace-nowrap text-sm secondary-color cursor-pointer"
             on:click={toggle}>
-            Hide invoice
+            Hide Invoice
             <div class="my-auto ml-1">
               <Fa icon={faChevronUp} />
             </div>
