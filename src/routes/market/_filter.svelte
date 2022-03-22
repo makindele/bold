@@ -9,24 +9,8 @@
 <div class:showFilters class="switch-container w-full md:w-auto">
   <div>
     <ToggleSwitch
-      id="list-price"
-      label="Has list price"
-      checked={$fc.listPrice}
-      on:change={(e) => ($fc.listPrice = e.target.checked)}
-    />
-  </div>
-  <div>
-    <ToggleSwitch
-      id="open-bid"
-      label="Has open bid"
-      checked={$fc.openBid}
-      on:change={(e) => ($fc.openBid = e.target.checked)}
-    />
-  </div>
-  <div>
-    <ToggleSwitch
       id="owned-by-creator"
-      label="Owned by creator"
+      label="Creator Owned"
       checked={$fc.ownedByCreator}
       on:change={(e) => ($fc.ownedByCreator = e.target.checked)}
     />
@@ -34,9 +18,25 @@
   <div>
     <ToggleSwitch
       id="has-sold"
-      label="Has sold"
+      label="Collector Owned"
       checked={$fc.hasSold}
       on:change={(e) => ($fc.hasSold = e.target.checked)}
+    />
+  </div>
+  <div>
+    <ToggleSwitch
+      id="list-price"
+      label="Currently Listed"
+      checked={$fc.listPrice}
+      on:change={(e) => ($fc.listPrice = e.target.checked)}
+    />
+  </div>
+  <div>
+    <ToggleSwitch
+      id="open-bid"
+      label="Open For Bids"
+      checked={$fc.openBid}
+      on:change={(e) => ($fc.openBid = e.target.checked)}
     />
   </div>
 </div>
