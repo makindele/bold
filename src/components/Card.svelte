@@ -82,7 +82,7 @@
             <div class="1/2 flex-1">
               <div class="price">{val(artwork.bid.amount)} {ticker}</div>
               <div class="text-xs font-medium">
-                Current bid by
+                Current Bid By
                 <a href={`/${artwork.bid.user.username}`} class="secondary-color"
                   >@{artwork.bid.user.username}</a
                 >
@@ -97,7 +97,7 @@
                 <Avatar user={artwork.artist} size="xs" />
                 <div class="mx-1 w-3/4">
                   <div class="truncate">@{artwork.artist.username}</div>
-                  <div class="text-xs text-gray-600">Artist</div>
+                  <div class="text-xs text-gray-600">Creator</div>
                 </div>
               </div>
             </a>
@@ -110,7 +110,7 @@
                   <Avatar user={artwork.owner} size="xs" />
                   <div class="ml-2 w-3/4">
                     <div class="truncate">@{artwork.owner.username}</div>
-                    <div class="text-xs text-gray-600">Owner</div>
+                    <div class="text-xs text-gray-600">Collector</div>
                   </div>
                 </div>
               </a>
