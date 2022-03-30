@@ -76,7 +76,7 @@
               {:else}&mdash;{/if}
               {ticker}
             </div>
-            <div class="w-1/2 text-xs font-medium">List Price</div>
+            <div class="w-1/2 text-xs font-medium">Buy Now</div>
           </div>
           {#if artwork.bid && artwork.bid.user}
             <div class="1/2 flex-1">
